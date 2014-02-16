@@ -1,0 +1,31 @@
+
+/* Low resolution, 480px and below */
+
+@media only screen and (max-width: 480px) {
+  body { background: blue; } 
+
+}
+
+/* Medium resolution, 481px to 1023 */
+
+@media only screen and (min-width: 481px) {  
+	body { background: green; } 
+
+}
+
+/* High resolution, 1024px and above */
+
+@media only screen and (min-width: 1024px) { 
+	body { background: rgb(244,244,244); }
+
+	#master { width: 960px; margin: 0 auto; border: 1px solid rgb(0,0,0); background: rgb(255,255,255); }
+
+	header { width: 960px; height: 130px; background: rgb(200,200,200); }
+
+	nav { width:960px; height: 35px; background: rgb(0,0,0); padding: 2px 0 20px 0; margin-bottom: 20px; }
+
+	nav li { display: inline; }
+
+	#slideshow { width: 840px; height: 300px; margin: 0 auto; background: rgb(200,200,200); }
+
+}
